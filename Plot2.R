@@ -11,3 +11,4 @@ subset_data[1:1440,"Time"] <- format(subset_data[1:1440,"Time"],"2007-02-01 %H:%
 subset_data[1441:2880,"Time"] <- format(subset_data[1441:2880,"Time"],"2007-02-02 %H:%M:%S")
 plot(subset_data$Time,as.numeric(subset_data$Global_active_power),type="l",xlab="",ylab="Global Active Power (kilowatts)", main = "Global Active Power Vs Time")
 
+#code to save the plot as png wasnt given
